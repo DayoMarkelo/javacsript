@@ -1,0 +1,10 @@
+ let person = {name: "Dayo", age: 29, evaluations:[7,10,9]};
+person.name ='Tim'
+person ["age"]= 21
+person.evaluations = 7,10,9
+console.log (person);
+
+
+const array = ['groen', 'rood', 'blauw'];
+const count = array.push ('geel', 5, {greeting: "hi ik ben een object"})
+console.log (array[0]);
