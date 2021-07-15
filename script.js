@@ -1,31 +1,8 @@
-console.log("Hello Winc Academy")
-let name= 'Dayo';
-console.log(name)
+console.log("Hallo Winc Academy studenten")
+//Dit is een grote som
 
-let somnumbers = 4+4;
-console.log (somnumbers)
+/*let som = 1230941 * 1823794;
+console.log (som)
 
-let somstring = '4+4';
-console.log (somstring)
-
-
-let addition = 3+3;
-console.log (addition)
-
-let subtraction = 3-2;
-console.log (subtraction)
-
-let multiplication = 3*2;
-console.log (multiplication)
-
-let division = 6/2;
-console.log (division)
-
-let modulus = 50% 100;
-console.log (modulus)
-
-let leeftijd = 29;
-console.log (typeof leeftijd)
-
-let leeftijdTwee = negenentwintig
-console.log (typeof leeftijdtwee)
+let som2 = 637263/54; 
+console.log (som2)*/
