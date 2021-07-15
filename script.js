@@ -36,4 +36,4 @@ const totalAmount = 100;
 if (totalAmount >=25 && totalAmount <=50) {console.log ("gratis (vega)bitterballen");}
 else if (totalAmount >=50 && totalAmount <=10) {console.log ("gratis (vega)bitterballen");}
 else if (totalAmount >=100)  {console.log ("gratis flesje champagne");}
-
+else {console.log ("Helaas, geen traktatie");}
