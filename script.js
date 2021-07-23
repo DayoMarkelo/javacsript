@@ -1,19 +1,24 @@
-const changeClassBlueBackground = function () {
-    const bodyElement = document.body;
-    bodyElement.classList.add("red-background");
-  };
-  const attachEventToChangeColorButton = function () {
-    const toggleColorButton = document.getElementById("change-background-button");
-    toggleColorButton.addEventListener("click", function () {
-      changeClassBlueBackground();
-    });
-  };
-  const attachEventToAlertButton = function () {
-    const alertButton = document.getElementById("alert-button");
-    alertButton.addEventListener("click", function () {
-      alert("button clicked!");
-    });
-  };
- 
-  attachEventToAlertButton();
-  attachEventToChangeColorButton();
+
+const menuClass = document.querySelector('.menu')
+const buttons = document.querySelectorAll(".textStyle")
+
+const backgroundBody = document.getElementById('background')
+const changeBackground = function () {
+    buttons.forEach(function (item) {
+        item.addEventListener('click', function (e) {
+            backgroundBody.removeAttribute("class")
+            backgroundBody.classList.add(e.target.classList[1])
+            menuClass.classList.toggle('menu-drop')
+        })
+    })
+}
+
+const hamburgerMenu = document.getElementById('hamburger-menu')
+const toggleHamburgerMenu = function () {
+    hamburgerMenu.addEventListener('click', function () {
+        menuClass.classList.toggle('menu-drop')
+    })
+}
+
+toggleHamburgerMenu();
+changeBackground();

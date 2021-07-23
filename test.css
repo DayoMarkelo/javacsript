@@ -1,0 +1,67 @@
+/*
+Dani Krossing how to create a toggle menu
+*/
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+
+/*
+* Makes the padding and margin even on all devices
+*/
+  * {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-drop {
+    display:none
+}
+
+.box {
+    padding: 20px;
+    width: 400px;
+}
+
+.textStyle {
+    height: 20px;
+    border: 1px solid white;
+    padding: 25px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.menu-drop {
+    display:none
+}
+
+
+.colorTurqouise {
+    background-color: turquoise;
+}
+
+.colorRed {
+    background-color: red;
+}
+
+.colorBrown {
+    background-color:brown;
+}
+
+.colorGreen {
+    background-color: green;
+}
+
+.colorBlue {
+    background-color: blue;
+}
